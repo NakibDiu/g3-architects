@@ -411,6 +411,13 @@ footer p {
   #features {
     flex-direction: row;
   }
+  #blogs {
+    flex-direction: row;
+  }
+  .blogs-container {
+    display: flex;
+    flex-direction: column;
+  }
   .features-grid {
     flex: 1;
     grid-template-columns: repeat(2, 1fr);
