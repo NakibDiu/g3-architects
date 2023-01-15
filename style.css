@@ -177,7 +177,7 @@ main {
   justify-content: center;
   align-items: center;
 }
-.button-container button {
+.exp-btn{
   padding: 45px 42px;
   border: none;
   background-color: var(--button-color);
@@ -405,6 +405,9 @@ footer p {
     gap: 62px;
     justify-content: center;
   }
+  .exp-btn:hover {
+    transform: translate(0, -80px) scale(1.1);
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1440px) {
@@ -427,5 +430,8 @@ footer p {
   }
   .features-text {
     flex-basis: 30%;
+  }
+  .exp-btn:hover {
+    transform: translate(0, -80px) scale(1.1);
   }
 }
